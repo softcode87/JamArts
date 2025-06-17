@@ -466,6 +466,63 @@ header .navbar{
     color: var(--white-color);
 }
 
+.footer {
+  background-color: #111;
+  color: #eee;
+  padding: 40px 0 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-container > div {
+  flex: 1 1 300px;
+  margin-bottom: 20px;
+}
+
+.footer h3, .footer h4 {
+  color: #f67280;
+  margin-bottom: 15px;
+}
+
+.footer p, .footer a {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #999;
+}
+
+
 
 /* responsive media for 1024px*/
 
